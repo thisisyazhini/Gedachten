@@ -1,4 +1,5 @@
 export interface Theme {
+  name: string;
   primary: string;
   primaryContent: string;
   secondary: string;

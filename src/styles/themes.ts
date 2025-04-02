@@ -1,6 +1,7 @@
 import { Theme } from '../models/theme';
 
 export const lightTheme: Theme = {
+  name: 'light',
   primary: 'oklch(0% 0 0)',
   primaryContent: 'oklch(100% 0 0)',
   secondary: 'oklch(22.45% .075 37.85)',
@@ -18,6 +19,7 @@ export const lightTheme: Theme = {
 };
 
 export const darkTheme: Theme = {
+  name: 'dark',
   primary: 'oklch(71.996% .123 62.756)',
   primaryContent: 'oklch(14.399% .024 62.756)',
   secondary: 'oklch(34.465% .029 199.194)',
