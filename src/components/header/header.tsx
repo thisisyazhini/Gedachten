@@ -1,3 +1,5 @@
+import { ThemeToggle } from '../themeToggle/themeToggle';
+
 export function Header() {
   return (
     <nav>
@@ -8,6 +10,9 @@ export function Header() {
         <ul>
           <li>Home</li>
           <li>Signup/Login</li>
+          <li>
+            <ThemeToggle></ThemeToggle>
+          </li>
         </ul>
       </div>
     </nav>
